@@ -1,0 +1,46 @@
+BLACKGOLD ECOSYSTEM
+GATE 02 RECOVERY R3 - APPROVED VISUAL V1
+
+BASE_BRANCH:
+main
+
+BASE_HEAD:
+da0f9aa6f277fc4cf5fa522a6aea2ab567613f48
+
+WORK_BRANCH:
+work/gate02-approved-visual-v1-r3
+
+CANONICAL_VISUAL_SOURCE:
+E:\BlackGold_Course_Translator\Site
+
+IMPORTANT:
+R2 failed because it compared the user's original local PNG bytes against hashes from chat/download copies.
+R3 removes that incorrect assumption.
+The user's local approved PNGs are now the source of truth and define the official SHA-256 baseline.
+
+APPROVED_LOCAL_IMAGE_SHA256:
+bf69af6d9b1988b156dbb8cda6562765944e7b4049827ca07e80b49c011acf13  page-destaque.png
+76a00144e676669c278288d22f1605c167b6fb3f96f3fe963141055ac5cccafd  page-ecosistema.png
+e9320b1f91444ba7f2f4e33342b46e50c59bd1e35f2ad2c4bf92cc026893755d  page-novidades.png
+a1f4611abd5a6ae9878618549c18300d36278830958584a1507884a28a23489a  page-produtos.png
+4cd702c1161de640c7055071cc4ee956c8405eb9ba9cef05ff7c1eae64a083e5  page-proximos.png
+
+DUPLICATE:
+1.png=bf69af6d9b1988b156dbb8cda6562765944e7b4049827ca07e80b49c011acf13
+page-destaque.png=bf69af6d9b1988b156dbb8cda6562765944e7b4049827ca07e80b49c011acf13
+result=IDENTICAL
+
+BGCT_PROTECTED:
+branch=work/gate10f-edge-submission-launch
+head=f3c8bec3ee989616bfef66680cf231608ba758e5
+rc1_sha256=f7ce5acd03fdb059d919b896dfe760d64402ef47173ce5e0506b509393148f49
+
+BGCT_POLICY:
+- No tracked changes allowed.
+- Only the exact six untracked Site reference PNG files are allowed.
+- Site/ remains untouched.
+
+RENDERING:
+- Five approved 1672x941 local images are the canonical visual layer.
+- Transparent hotspots provide navigation/functionality.
+- No visual reinterpretation is allowed without explicit approval.

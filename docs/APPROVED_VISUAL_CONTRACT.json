@@ -1,0 +1,46 @@
+{
+    "contract_version":  "1.1",
+    "gate":  "GATE02_APPROVED_VISUAL_V1_R3",
+    "date":  "2026-10-03",
+    "canonical_source":  "E:\\BlackGold_Course_Translator\\Site",
+    "rendering_strategy":  "Approved local PNG as canonical visual layer plus transparent interactive hotspots.",
+    "reference_dimensions":  "1672x941",
+    "pages":  {
+                  "page-destaque.png":  {
+                                            "source_file":  "Imagem do ChatGPT 3 de out. de 2026, 00_45_45-1.png",
+                                            "width":  1672,
+                                            "height":  941,
+                                            "sha256":  "bf69af6d9b1988b156dbb8cda6562765944e7b4049827ca07e80b49c011acf13"
+                                        },
+                  "page-novidades.png":  {
+                                             "source_file":  "Imagem do ChatGPT 3 de out. de 2026, 00_45_46-2.png",
+                                             "width":  1672,
+                                             "height":  941,
+                                             "sha256":  "e9320b1f91444ba7f2f4e33342b46e50c59bd1e35f2ad2c4bf92cc026893755d"
+                                         },
+                  "page-produtos.png":  {
+                                            "source_file":  "Imagem do ChatGPT 3 de out. de 2026, 00_45_47-3.png",
+                                            "width":  1672,
+                                            "height":  941,
+                                            "sha256":  "a1f4611abd5a6ae9878618549c18300d36278830958584a1507884a28a23489a"
+                                        },
+                  "page-proximos.png":  {
+                                            "source_file":  "Imagem do ChatGPT 3 de out. de 2026, 00_45_48-4.png",
+                                            "width":  1672,
+                                            "height":  941,
+                                            "sha256":  "4cd702c1161de640c7055071cc4ee956c8405eb9ba9cef05ff7c1eae64a083e5"
+                                        },
+                  "page-ecosistema.png":  {
+                                              "source_file":  "Imagem do ChatGPT 3 de out. de 2026, 00_45_50-5.png",
+                                              "width":  1672,
+                                              "height":  941,
+                                              "sha256":  "76a00144e676669c278288d22f1605c167b6fb3f96f3fe963141055ac5cccafd"
+                                          }
+              },
+    "rules":  [
+                  "The local approved PNG bytes are the source of truth.",
+                  "Do not redraw, regenerate, restyle or replace these pages without explicit user approval.",
+                  "UI interactivity must be added without changing the canonical visual layer.",
+                  "Unknown commercial destinations remain disabled until a real public URL exists."
+              ]
+}
