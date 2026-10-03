@@ -1,0 +1,48 @@
+BLACKGOLD ECOSYSTEM
+GATE 07 - PRODUCTS & ASSETS APPROVED VISUAL V2
+
+BASE_HEAD:
+53e1ac4897e0b6ae2e347ec50f0112c93b15de23
+
+WORK_BRANCH:
+work/gate07-products-approved-v2
+
+APPROVED SOURCE:
+payload/page-produtos-approved-v2.png
+
+APPROVED SHA256:
+e0f819e57a4022dbe8803eba3a49a330541deece99eadbfe2aa491a5c36986ce
+
+INTRINSIC SIZE:
+1673x940
+
+VISIBLE PUBLISHED ASSETS IN THE APPROVED ART:
+- BlackGold Beauty Finds
+- FitNexus Coach
+- AppEvidex
+- Preco no Ponto - Play Store
+
+FUNCTIONAL DESTINATIONS:
+- store
+- fitnexus
+- appevidex
+- price_no_ponto
+
+FILES CHANGED:
+docs/products.html
+docs/assets/approved/page-produtos.png
+docs/assets/site.js
+10_RECEIPTS/GATE07_PRODUCTS_APPROVED_V2_RECEIPT.txt
+
+PRESERVED:
+- Destaque PNG
+- Novidades PNG
+- Proximos PNG
+- Ecossistema PNG
+- Gate 05 modal/functionality
+- BGCT RC1
+
+BGCT:
+branch=work/gate10f-edge-submission-launch
+head=f3c8bec3ee989616bfef66680cf231608ba758e5
+rc1_sha256=f7ce5acd03fdb059d919b896dfe760d64402ef47173ce5e0506b509393148f49

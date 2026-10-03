@@ -230,21 +230,12 @@
   const page = (location.pathname.split("/").pop() || "index.html").toLowerCase();
 
   // Quick-access row visible in the approved art.
-  if (["index.html","products.html","next.html"].includes(page)) {
+  if (["index.html","next.html"].includes(page)) {
     addHotspot("panel-apps",         4.1, 86.0, 17.6, 6.8, "Apps");
     addHotspot("panel-publications",22.2, 86.0, 18.3, 6.8, "Publicações");
     addHotspot("panel-tools",       41.1, 86.0, 17.8, 6.8, "Ferramentas");
     addHotspot("panel-community",   59.5, 86.0, 17.2, 6.8, "Comunidade");
     addHotspot("panel-channels",    77.3, 86.0, 18.0, 6.8, "Canais oficiais");
-  }
-
-  // Product category filters visible in Produtos e Ativos.
-  if (page === "products.html") {
-    addHotspot("panel-all",          4.3, 39.0, 17.0, 5.6, "Todos os ativos");
-    addHotspot("panel-apps",        21.8, 39.0, 17.5, 5.6, "Apps");
-    addHotspot("panel-publications",39.8, 39.0, 18.4, 5.6, "Publicações");
-    addHotspot("panel-tools",       58.7, 39.0, 17.9, 5.6, "Ferramentas");
-    addHotspot("panel-all",         77.1, 39.0, 18.5, 5.6, "Institucional");
   }
 
   // "Ver todos os projetos" on the Ecosystem page.
