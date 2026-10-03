@@ -1,0 +1,38 @@
+BLACKGOLD ECOSYSTEM
+GATE 06 - VISIBLE PUBLISHED ASSETS
+
+BASE_HEAD:
+47eb0b9597fddf2865b18d59f08678003ef7fdb1
+
+WORK_BRANCH:
+work/gate06-visible-published-assets
+
+VISIBLE ASSETS:
+1. BlackGold Beauty Finds
+   https://blackgold-beauty-finds-br.pages.dev/
+2. FitNexus Coach
+   https://projetoscosanostra.github.io/FitNexus_Coach_BlackGold/
+3. AppEvidex
+   https://appevidex.pages.dev/
+4. Preco no Ponto - Play Store
+   https://play.google.com/store/apps/details?id=br.com.lafamigliaplayworks.preconoponto&pcampaignid=web_share
+
+VISIBLE LOCATIONS:
+- Produtos e Ativos: overlay on the former "Numeros do ecossistema" strip.
+- Ecossistema BlackGold: overlay on the "Projetos e Loja" card row.
+
+DIRECT LINKS ENABLED ON ECOSYSTEM PAGE:
+Instagram, TikTok, Kwai, YouTube, Facebook, Telegram, GitHub, LinkedIn, Contato.
+
+APPROVED PNG CONTRACT:
+The five PNG reference files remain byte-for-byte unchanged.
+
+FILES CHANGED:
+docs/assets/site.js
+docs/assets/site.css
+10_RECEIPTS/GATE06_VISIBLE_PUBLISHED_ASSETS_RECEIPT.txt
+
+BGCT:
+branch=work/gate10f-edge-submission-launch
+head=f3c8bec3ee989616bfef66680cf231608ba758e5
+rc1_sha256=f7ce5acd03fdb059d919b896dfe760d64402ef47173ce5e0506b509393148f49
