@@ -1,0 +1,32 @@
+BLACKGOLD ECOSYSTEM - PORTAL MASTER V2
+
+OBJETIVO:
+Nao ser um diretorio de links.
+Ser o portal institucional e de lancamentos da BlackGold.
+
+CAMADAS:
+1. Featured Launch
+2. News / Novidades
+3. Portfolio
+4. Publications
+5. Pipeline
+6. Ecosystem / Official Links
+7. Privacy / Contact
+
+REGRA DE FUTURO:
+O proximo ativo nao precisa ser conhecido hoje.
+A arquitetura suporta:
+- live
+- published
+- launching
+- coming_soon
+- research
+
+Quando um novo ativo for aprovado:
+- adicionar por script;
+- publicar novidade por script;
+- opcionalmente torna-lo destaque por script;
+- sem editar HTML manualmente.
+
+BLACKGOLD COURSE TRANSLATOR:
+Mantido separado e protegido.

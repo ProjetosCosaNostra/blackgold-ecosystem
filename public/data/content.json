@@ -1,0 +1,95 @@
+{
+  "schema": "blackgold.portal.content",
+  "version": 1,
+  "last_updated": "2026-10-02",
+  "featured_asset_id": "blackgold-course-translator",
+  "assets": [
+    {
+      "id": "blackgold-course-translator",
+      "kind": "software",
+      "status": "launching",
+      "priority": 100,
+      "title": "BlackGold Course Translator",
+      "kicker": "EM DESTAQUE",
+      "summary": "Tradução sincronizada de legendas e transcrições de cursos diretamente no navegador.",
+      "url": "https://projetoscosanostra.github.io/blackgold-course-translator-site/",
+      "cta": "Conhecer o produto"
+    },
+    {
+      "id": "seu-servico-tem-preco",
+      "kind": "publication",
+      "status": "published",
+      "priority": 95,
+      "title": "SEU SERVIÇO TEM PREÇO",
+      "kicker": "PRIMEIRO LIVRO PUBLICADO",
+      "summary": "Quanto cobrar pelo seu trabalho — guia prático de precificação para MEI, autônomos e prestadores de serviço.",
+      "url": null,
+      "cta": "Link comercial em atualização"
+    },
+    {
+      "id": "orcamento-no-ponto",
+      "kind": "app",
+      "status": "coming_soon",
+      "priority": 90,
+      "title": "Orçamento no Ponto",
+      "kicker": "PRÓXIMO LANÇAMENTO",
+      "summary": "Aplicativo de orçamentos com experiência premium, fluxo profissional e integração ao Ecossistema.",
+      "url": null,
+      "cta": "Em finalização"
+    },
+    {
+      "id": "appevidex",
+      "kind": "software",
+      "status": "live",
+      "priority": 70,
+      "title": "AppEvidex",
+      "kicker": "ATIVO DO ECOSSISTEMA",
+      "summary": "Produto digital integrado ao ecossistema BlackGold.",
+      "url": "https://appevidex.pages.dev/",
+      "cta": "Abrir AppEvidex"
+    }
+  ],
+  "news": [
+    {
+      "id": "news-20261002-book",
+      "date": "2026-10-02",
+      "category": "Publicação",
+      "title": "Primeiro livro BlackGold publicado",
+      "summary": "SEU SERVIÇO TEM PREÇO entra no catálogo editorial e inaugura uma nova frente de ativos digitais.",
+      "asset_id": "seu-servico-tem-preco"
+    },
+    {
+      "id": "news-20261002-bgct",
+      "date": "2026-10-02",
+      "category": "Produto",
+      "title": "BlackGold Course Translator entra na fase de publicação",
+      "summary": "A release candidate foi testada, o site público foi colocado no ar e os kits de loja foram preparados.",
+      "asset_id": "blackgold-course-translator"
+    },
+    {
+      "id": "news-20261002-orcamento",
+      "date": "2026-10-02",
+      "category": "Em breve",
+      "title": "Orçamento no Ponto avança para a reta final",
+      "summary": "O aplicativo segue em evolução com telas premium e preparação para publicação.",
+      "asset_id": "orcamento-no-ponto"
+    }
+  ],
+  "pipeline": [
+    {
+      "stage": "launching",
+      "title": "BlackGold Course Translator",
+      "note": "Publicação e distribuição."
+    },
+    {
+      "stage": "coming_soon",
+      "title": "Orçamento no Ponto",
+      "note": "Finalização do produto e preparação de release."
+    },
+    {
+      "stage": "research",
+      "title": "Próximo ativo BlackGold",
+      "note": "Será escolhido por evidência de mercado, sinergia com o portfólio e velocidade de monetização."
+    }
+  ]
+}

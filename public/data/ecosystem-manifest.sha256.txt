@@ -1,0 +1,1 @@
+ca78bd398a69fba7db692135ab5a4246d0cb44e181259d65f27a0285c7e2cca8  ecosystem-manifest.v2.1.json
