@@ -1,0 +1,45 @@
+BLACKGOLD ECOSYSTEM
+GATE 05 - ACTIVE ASSETS + FUNCTIONAL QUICK ACCESS
+
+BASE_HEAD:
+4116251cb9c25b99987ac557f1f206cee1528b82
+
+WORK_BRANCH:
+work/gate05-active-assets-v1
+
+ACTIVE ASSETS ADDED TO FUNCTIONAL PORTAL:
+- Loja Oficial / BlackGold Beauty Finds
+  https://blackgold-beauty-finds-br.pages.dev/
+- FitNexus Coach
+  https://projetoscosanostra.github.io/FitNexus_Coach_BlackGold/
+- AppEvidex
+  https://appevidex.pages.dev/
+- Preco no Ponto - Play Store
+  https://play.google.com/store/apps/details?id=br.com.lafamigliaplayworks.preconoponto&pcampaignid=web_share
+- BlackGold Course Translator
+  https://projetoscosanostra.github.io/blackgold-course-translator-site/
+
+PENDING:
+- SEU SERVICO TEM PRECO: published; Amazon canonical URL pending.
+- Orcamento no Ponto: almost ready; public release URL pending.
+
+QUICK ACCESS NOW FUNCTIONAL:
+- Apps
+- Publicacoes
+- Ferramentas
+- Comunidade
+- Canais oficiais
+
+VISUAL CONTRACT:
+The five approved PNG pages were NOT changed.
+Functional panels exist only after user interaction.
+
+FILES CHANGED:
+docs/assets/site.js
+docs/assets/site.css
+docs/data/links.json
+
+BGCT:
+branch=work/gate10f-edge-submission-launch
+head=f3c8bec3ee989616bfef66680cf231608ba758e5
+rc1_sha256=f7ce5acd03fdb059d919b896dfe760d64402ef47173ce5e0506b509393148f49

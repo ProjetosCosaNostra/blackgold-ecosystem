@@ -13,3 +13,32 @@ body{font-family:Arial,Helvetica,sans-serif;overflow-x:hidden}
   .visual-shell{min-width:900px}
   body{overflow-x:auto}
 }
+/* BG_GATE05_ACTIVE_ASSETS */
+body.bg-modal-open{overflow:hidden!important}
+.bg-asset-modal[hidden]{display:none!important}
+.bg-asset-modal{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;padding:28px}
+.bg-asset-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.82);backdrop-filter:blur(9px)}
+.bg-asset-dialog{position:relative;width:min(1120px,94vw);max-height:88vh;overflow:auto;border:1px solid rgba(230,177,61,.58);border-radius:22px;background:
+linear-gradient(145deg,rgba(15,20,25,.98),rgba(3,7,11,.99));box-shadow:0 32px 100px rgba(0,0,0,.72),0 0 55px rgba(213,156,38,.12);padding:34px}
+.bg-asset-dialog:before{content:"";position:absolute;inset:0;pointer-events:none;border-radius:22px;background:
+radial-gradient(circle at 88% 7%,rgba(214,157,39,.13),transparent 28%)}
+.bg-asset-close{position:absolute;right:20px;top:16px;width:44px;height:44px;border-radius:50%;border:1px solid rgba(230,177,61,.48);background:#070b0f;color:#f3cd67;font:300 30px/1 Arial;cursor:pointer}
+.bg-asset-close:hover,.bg-asset-close:focus-visible{background:#17130a;outline:2px solid #f1c75b;outline-offset:2px}
+.bg-asset-eyebrow{position:relative;color:#d8a936;font:700 12px/1.2 Arial;letter-spacing:.22em;margin-bottom:12px}
+.bg-asset-dialog h2{position:relative;margin:0;color:#f5f0e6;font:700 clamp(30px,4vw,52px)/1.02 Georgia,serif}
+.bg-asset-intro{position:relative;max-width:760px;margin:12px 0 26px;color:#b7b4ad;font:400 16px/1.55 Arial}
+.bg-asset-grid{position:relative;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.bg-asset-card{min-height:174px;border:1px solid rgba(221,167,52,.32);border-radius:15px;background:linear-gradient(145deg,rgba(18,24,30,.96),rgba(5,9,13,.96));padding:22px;display:flex;flex-direction:column;justify-content:space-between;gap:20px}
+.bg-asset-meta{display:inline-block;color:#e6b53e;font:700 11px/1 Arial;letter-spacing:.15em;margin-bottom:10px}
+.bg-asset-card h3{margin:0;color:#fff7e8;font:700 22px/1.15 Georgia,serif}
+.bg-asset-card p{margin:9px 0 0;color:#aaa9a5;font:400 14px/1.5 Arial}
+.bg-asset-link{display:flex;align-items:center;justify-content:space-between;text-decoration:none;border:1px solid rgba(232,182,66,.72);border-radius:999px;padding:11px 16px;color:#f5c957;font:700 13px/1 Arial;transition:.18s ease}
+.bg-asset-link:hover,.bg-asset-link:focus-visible{background:linear-gradient(90deg,#e4ac32,#f4d473);color:#090806;outline:none;transform:translateY(-1px)}
+.bg-asset-link.is-disabled{opacity:.48;cursor:not-allowed;pointer-events:none}
+.bg-runtime-hotspot{cursor:pointer}
+@media(max-width:720px){
+  .bg-asset-modal{padding:12px}
+  .bg-asset-dialog{padding:28px 18px 20px;border-radius:18px}
+  .bg-asset-grid{grid-template-columns:1fr}
+}
+/* /BG_GATE05_ACTIVE_ASSETS */
