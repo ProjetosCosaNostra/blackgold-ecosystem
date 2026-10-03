@@ -1,0 +1,43 @@
+BLACKGOLD ECOSYSTEM
+GATE 09B - ECOSYSTEM DESKTOP I18N PT/EN/ES
+
+BASE_HEAD:
+3385762f2f39c3cc8fb6bd13c66c589ee3388f60
+
+WORK_BRANCH:
+work/gate09b-ecosystem-i18n
+
+SCOPE:
+Ecosystem page only.
+
+LANGUAGES:
+- PT: original approved image, zero visual overlay.
+- EN: real HTML/CSS translation overlay.
+- ES: real HTML/CSS translation overlay.
+
+PERSISTENCE:
+localStorage key = bg_lang
+
+SHAREABLE URLS:
+https://blackgold-ecosystem.pages.dev/ecosystem?lang=en
+https://blackgold-ecosystem.pages.dev/ecosystem?lang=es
+
+NO NEW IMAGES:
+TRUE
+
+APPROVED PNG SHA256:
+bf69af6d9b1988b156dbb8cda6562765944e7b4049827ca07e80b49c011acf13  page-destaque.png
+e9320b1f91444ba7f2f4e33342b46e50c59bd1e35f2ad2c4bf92cc026893755d  page-novidades.png
+e0f819e57a4022dbe8803eba3a49a330541deece99eadbfe2aa491a5c36986ce  page-produtos.png
+4cd702c1161de640c7055071cc4ee956c8405eb9ba9cef05ff7c1eae64a083e5  page-proximos.png
+f785689df8de3f148f07e67769f65603f7ee7f0648c52ce25522bef1a6898be4  page-ecosistema.png
+
+FILES CHANGED:
+docs/ecosystem.html
+docs/assets/ecosystem-i18n.css
+docs/assets/ecosystem-i18n.js
+10_RECEIPTS/GATE09B_ECOSYSTEM_I18N_RECEIPT.txt
+
+MOBILE:
+Not changed in Gate 09B.
+Dedicated mobile responsiveness comes after desktop language validation.
