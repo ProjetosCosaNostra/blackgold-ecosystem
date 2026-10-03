@@ -1,0 +1,30 @@
+BLACKGOLD ECOSYSTEM
+GATE 03 - CLOUDFLARE CONFIG
+
+BASE_HEAD=c96346ec44ccf79edf96be034a874834d819b13c
+WORK_BRANCH=work/gate03-cloudflare-config
+
+CHANGE:
+wrangler.jsonc
+
+CONFIG:
+name=blackgold-ecosystem
+compatibility_date=2026-10-01
+assets.directory=./docs
+sha256=0fa2973a15fd681b640e2fe6a192fa4388511c2348ffd8a5cc688ab890411794
+
+PURPOSE:
+Fix the Cloudflare build error requiring compatibility_date.
+
+CLOUDFLARE DASHBOARD COMMAND CAN REMAIN:
+npx wrangler@latest deploy --assets ./docs --name blackgold-ecosystem
+
+Wrangler will read compatibility_date from wrangler.jsonc.
+
+VISUAL:
+No approved page/image was changed.
+
+BGCT:
+branch=work/gate10f-edge-submission-launch
+head=f3c8bec3ee989616bfef66680cf231608ba758e5
+rc1_sha256=f7ce5acd03fdb059d919b896dfe760d64402ef47173ce5e0506b509393148f49
