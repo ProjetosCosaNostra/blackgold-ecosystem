@@ -238,8 +238,4 @@
     addHotspot("panel-channels",    77.3, 86.0, 18.0, 6.8, "Canais oficiais");
   }
 
-  // "Ver todos os projetos" on the Ecosystem page.
-  if (page === "ecosystem.html") {
-    addHotspot("panel-all", 83.7, 52.5, 12.0, 3.6, "Ver todos os projetos");
-  }
 })();

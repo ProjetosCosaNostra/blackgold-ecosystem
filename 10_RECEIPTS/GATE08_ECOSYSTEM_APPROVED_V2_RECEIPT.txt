@@ -1,0 +1,54 @@
+BLACKGOLD ECOSYSTEM
+GATE 08 - ECOSYSTEM PAGE APPROVED VISUAL V2
+
+BASE_HEAD:
+0df925a40ceea14dc7759baca0cd689c48b4e106
+
+WORK_BRANCH:
+work/gate08-ecosystem-approved-v2
+
+APPROVED SOURCE:
+payload/page-ecosistema-approved-v2.png
+
+APPROVED SHA256:
+f785689df8de3f148f07e67769f65603f7ee7f0648c52ce25522bef1a6898be4
+
+INTRINSIC SIZE:
+1672x941
+
+VISIBLE PUBLISHED ASSETS:
+- BlackGold Beauty Finds
+- FitNexus Coach
+- AppEvidex
+- Preco no Ponto - Play Store
+
+OTHER VISIBLE PROJECTS:
+- BlackGold Course Translator
+- Seu Servico Tem Preco
+- Orcamento no Ponto
+- Expansao do Ecossistema
+
+DIRECTLY CLICKABLE:
+- Published assets
+- Instagram / TikTok / Kwai
+- YouTube / Facebook / Telegram
+- GitHub / LinkedIn / Contact
+- Header navigation
+- Footer links/icons
+
+NON-TARGET APPROVED IMAGE HASHES PRESERVED:
+bf69af6d9b1988b156dbb8cda6562765944e7b4049827ca07e80b49c011acf13  page-destaque.png
+e9320b1f91444ba7f2f4e33342b46e50c59bd1e35f2ad2c4bf92cc026893755d  page-novidades.png
+e0f819e57a4022dbe8803eba3a49a330541deece99eadbfe2aa491a5c36986ce  page-produtos.png
+4cd702c1161de640c7055071cc4ee956c8405eb9ba9cef05ff7c1eae64a083e5  page-proximos.png
+
+FILES CHANGED:
+docs/ecosystem.html
+docs/assets/approved/page-ecosistema.png
+docs/assets/site.js
+10_RECEIPTS/GATE08_ECOSYSTEM_APPROVED_V2_RECEIPT.txt
+
+BGCT:
+branch=work/gate10f-edge-submission-launch
+head=f3c8bec3ee989616bfef66680cf231608ba758e5
+rc1_sha256=f7ce5acd03fdb059d919b896dfe760d64402ef47173ce5e0506b509393148f49
