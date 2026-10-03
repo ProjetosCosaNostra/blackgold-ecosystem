@@ -1,0 +1,49 @@
+BLACKGOLD ECOSYSTEM
+GATE 01 V2 - GITHUB PAGES RECOVERY
+
+ORIGINAL_FAILED_HEAD:
+082dffae0db8699f75eba8d7bcb60db6e93265b8
+
+RECOVERY_COMMIT:
+e689575eb1c381f7cceb1cdc43750cc14aa409d5
+
+FINAL_BRANCH:
+main
+
+PUBLIC_SITE:
+https://projetoscosanostra.github.io/blackgold-ecosystem/
+
+NEWS:
+https://projetoscosanostra.github.io/blackgold-ecosystem/news.html
+
+ECOSYSTEM:
+https://projetoscosanostra.github.io/blackgold-ecosystem/ecosystem.html
+
+PRIVACY:
+https://projetoscosanostra.github.io/blackgold-ecosystem/privacy.html
+
+GITHUB_PAGES_SOURCE:
+main:/docs
+
+HTTP:
+home=200
+news=200
+ecosystem=200
+privacy=200
+
+RECOVERY:
+- GitHub Pages rejected /public because branch deployment supports only / or /docs.
+- Internal project documentation moved to 00_PROJECT.
+- Static portal moved from public/ to docs/.
+- Routine update scripts were adjusted from public/data/content.json to docs/data/content.json.
+- No visual redesign was performed.
+
+BGCT_PROTECTED:
+branch=work/gate10f-edge-submission-launch
+head=f3c8bec3ee989616bfef66680cf231608ba758e5
+rc1_sha256=f7ce5acd03fdb059d919b896dfe760d64402ef47173ce5e0506b509393148f49
+
+GUARANTEES:
+- Existing remote repository was reused, not recreated.
+- No personal Chrome/Edge window was closed.
+- BlackGold Course Translator was not modified.
