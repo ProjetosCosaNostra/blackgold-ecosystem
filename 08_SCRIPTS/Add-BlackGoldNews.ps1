@@ -9,7 +9,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $Root = 'E:\BlackGold_Ecosystem'
-$JsonPath = Join-Path $Root 'public\data\content.json'
+$JsonPath = Join-Path $Root 'docs\data\content.json'
 
 if (-not $Title) { $Title = Read-Host 'Titulo da novidade' }
 if (-not $Summary) { $Summary = Read-Host 'Resumo da novidade' }

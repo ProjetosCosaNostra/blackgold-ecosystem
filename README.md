@@ -40,3 +40,8 @@ https://projetoscosanostra.github.io/blackgold-ecosystem/
 ## Contato
 
 projetoscosanostra@gmail.com
+## GitHub Pages
+
+O site publico e publicado a partir de /docs, porque GitHub Pages aceita / ou /docs como source em branch deployment.
+
+Os scripts de conteudo atualizam docs/data/content.json.

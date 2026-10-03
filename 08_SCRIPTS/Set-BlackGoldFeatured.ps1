@@ -5,7 +5,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $Root = 'E:\BlackGold_Ecosystem'
-$JsonPath = Join-Path $Root 'public\data\content.json'
+$JsonPath = Join-Path $Root 'docs\data\content.json'
 
 $Data = Get-Content -LiteralPath $JsonPath -Raw -Encoding UTF8 | ConvertFrom-Json
 

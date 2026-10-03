@@ -14,7 +14,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $Root = 'E:\BlackGold_Ecosystem'
-$JsonPath = Join-Path $Root 'public\data\content.json'
+$JsonPath = Join-Path $Root 'docs\data\content.json'
 
 if (-not $Id) { $Id = Read-Host 'ID curto do ativo (ex: meu-novo-app)' }
 if (-not $Title) { $Title = Read-Host 'Nome do ativo' }
