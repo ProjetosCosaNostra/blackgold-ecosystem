@@ -1,0 +1,29 @@
+BLACKGOLD ECOSYSTEM
+GATE 06 ROLLBACK - BAD VISIBLE-ASSET OVERLAY
+
+BASE_HEAD:
+7264eb7a7b59157de29ac580b6cbefcbb860fc0c
+
+REMOVED:
+- JS block beginning: // BG_GATE06_VISIBLE_PUBLISHED_ASSETS
+- CSS block between BG_GATE06_VISIBLE_PUBLISHED_ASSETS markers
+
+PRESERVED:
+- Five approved PNG pages byte-for-byte.
+- Gate 05 functional panels and canonical links.
+- data/links.json.
+- Cloudflare Pages official URL.
+- BlackGold Course Translator baseline.
+
+REASON:
+The Gate 06 visible cards visually collided with the approved Products page,
+covered the metric strip, and looked like an added overlay instead of part of the design.
+
+NEXT RULE:
+Do not add another visible asset layout to the five approved pages without
+a separately approved visual composition for that new content.
+
+BGCT:
+branch=work/gate10f-edge-submission-launch
+head=f3c8bec3ee989616bfef66680cf231608ba758e5
+rc1_sha256=f7ce5acd03fdb059d919b896dfe760d64402ef47173ce5e0506b509393148f49
