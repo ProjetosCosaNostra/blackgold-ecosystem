@@ -1,0 +1,171 @@
+[hidden]{display:none!important}
+:root{
+  --screen-ratio: 735 / 1596;
+  --gold:#f0b92e;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:#000;min-height:100%}
+body{
+  font-family:Inter,"Segoe UI",Arial,sans-serif;
+  overflow-x:hidden;
+}
+.pixel-page{
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  background:
+    radial-gradient(circle at 50% 15%,#181006 0%,#030303 42%,#000 75%);
+}
+.visual-wrap{
+  position:relative;
+  width:min(100vw,430px);
+  line-height:0;
+  background:#020609;
+}
+.approved-screen{
+  display:block;
+  width:100%;
+  height:auto;
+  user-select:none;
+  -webkit-user-drag:none;
+}
+.hotspot{
+  position:absolute;
+  z-index:5;
+  border:0;
+  padding:0;
+  margin:0;
+  background:transparent;
+  cursor:pointer;
+  color:transparent;
+  font-size:0;
+}
+.hotspot:focus-visible{
+  outline:2px solid #fff3aa;
+  outline-offset:2px;
+  background:rgba(255,210,70,.12);
+}
+html.debug-hotspots .hotspot{
+  outline:1px dashed rgba(0,255,255,.85);
+  background:rgba(0,255,255,.08);
+}
+.anchor{
+  position:absolute;
+  left:0;
+  width:1px;
+  height:1px;
+}
+
+/* Coordinates are percentages of the exact 735x1596 approved screen crop */
+
+/* Header */
+.home-logo{left:2.7%;top:.8%;width:38.8%;height:6.1%}
+.lang-pt{left:64.0%;top:1.0%;width:7.8%;height:5.5%}
+.lang-en{left:72.5%;top:1.0%;width:7.6%;height:5.5%}
+.lang-es{left:81.0%;top:1.0%;width:7.6%;height:5.5%}
+.menu{left:89.0%;top:1.1%;width:8.5%;height:5.4%}
+
+/* Hero */
+.hero-explore{left:3.0%;top:24.2%;width:38.8%;height:4.5%}
+
+/* Projects */
+.projects-all{left:79.0%;top:31.0%;width:18.0%;height:3.5%}
+.course{left:2.5%;top:36.5%;width:23.3%;height:18.8%}
+.book{left:27.0%;top:36.5%;width:23.0%;height:18.8%}
+.price-project{left:51.2%;top:36.5%;width:23.0%;height:18.8%}
+.expansion{left:75.5%;top:36.5%;width:22.0%;height:18.8%}
+
+/* Published */
+.published-all{left:79.1%;top:56.6%;width:18.0%;height:3.4%}
+.beauty{left:2.7%;top:60.4%;width:46.8%;height:5.4%}
+.fitnexus{left:50.6%;top:60.4%;width:46.5%;height:5.4%}
+.appevidex{left:2.7%;top:66.0%;width:46.8%;height:5.2%}
+.playstore{left:50.6%;top:66.0%;width:46.5%;height:5.2%}
+
+/* Community */
+.community-all{left:79.5%;top:72.9%;width:17.5%;height:3.1%}
+.instagram{left:2.7%;top:76.0%;width:31.4%;height:4.1%}
+.tiktok{left:35.3%;top:76.0%;width:31.1%;height:4.1%}
+.kwai{left:67.4%;top:76.0%;width:29.7%;height:4.1%}
+.youtube{left:2.7%;top:80.4%;width:31.4%;height:4.1%}
+.facebook{left:35.3%;top:80.4%;width:31.1%;height:4.1%}
+.telegram{left:67.4%;top:80.4%;width:29.7%;height:4.1%}
+
+/* Company */
+.company-more{left:79.2%;top:86.5%;width:17.8%;height:3.2%}
+.github{left:2.5%;top:90.2%;width:31.8%;height:5.2%}
+.linkedin{left:35.2%;top:90.2%;width:31.5%;height:5.2%}
+.contact{left:67.4%;top:90.2%;width:29.8%;height:5.2%}
+
+/* Bottom nav */
+.bottom-home{left:0;top:95.8%;width:25%;height:4.2%}
+.bottom-projects{left:25%;top:95.8%;width:25%;height:4.2%}
+.bottom-assets{left:50%;top:95.8%;width:25%;height:4.2%}
+.bottom-networks{left:75%;top:95.8%;width:25%;height:4.2%}
+
+/* Scroll anchors */
+.anchor-projects{top:30.0%}
+.anchor-published{top:55.5%}
+.anchor-community{top:71.8%}
+.anchor-company{top:85.5%}
+
+/* Menu */
+.drawer{
+  position:fixed;
+  inset:0;
+  z-index:50;
+  background:rgba(0,0,0,.58);
+  display:grid;
+  place-items:start center;
+  padding-top:72px;
+}
+.drawer-card{
+  width:min(calc(100vw - 24px),406px);
+  border:1px solid rgba(226,169,42,.72);
+  border-radius:14px;
+  overflow:hidden;
+  background:rgba(3,8,11,.98);
+  box-shadow:0 18px 60px rgba(0,0,0,.65);
+}
+.drawer-card button{
+  width:100%;
+  min-height:48px;
+  border:0;
+  border-bottom:1px solid rgba(226,169,42,.24);
+  background:transparent;
+  color:#f7f1e6;
+  text-align:left;
+  padding:0 16px;
+  font-weight:700;
+}
+.drawer-card button:last-child{border-bottom:0}
+
+/* Toast */
+.toast{
+  position:fixed;
+  z-index:80;
+  left:50%;
+  bottom:24px;
+  transform:translateX(-50%);
+  width:min(calc(100vw - 28px),390px);
+  padding:12px 14px;
+  border:1px solid rgba(226,169,42,.75);
+  border-radius:12px;
+  background:rgba(3,8,11,.97);
+  color:#f7f1e6;
+  font-size:12px;
+  line-height:1.35;
+  text-align:center;
+  box-shadow:0 16px 40px rgba(0,0,0,.55);
+}
+
+/* On desktop the preview still remains a true mobile width */
+@media(min-width:431px){
+  .visual-wrap{
+    margin:16px 0 24px;
+    border-radius:24px;
+    overflow:hidden;
+    box-shadow:0 35px 120px rgba(0,0,0,.75);
+  }
+}
